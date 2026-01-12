@@ -5,7 +5,7 @@ from pathlib import Path
 # Add project root to PYTHONPATH for Streamlit Cloud
 ROOT_DIR = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT_DIR))
-from ..ai_service import analyze_requirements, split_analysis_sections
+from ai_service import analyze_requirements, split_analysis_sections
 
 
 
