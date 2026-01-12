@@ -1,8 +1,6 @@
 import streamlit as st
-from requirements_analysis_ai.ai_service import (
-    analyze_requirements,
-    split_analysis_sections
-)
+from ..ai_service import analyze_requirements, split_analysis_sections
+
 
 
 # ---------------- Page Config ----------------
