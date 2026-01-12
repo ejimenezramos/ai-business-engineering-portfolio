@@ -58,7 +58,7 @@ This tool helps to:
 ## 🏗️ Architecture Overview
 
 ```
-requirements-analysis-ai/
+requirements_analysis_ai/
 ├── app/              # Core application logic
 ├── ui/               # Streamlit UI
 ├── ai_service.py     # Gemini integration & prompt logic
