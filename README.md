@@ -31,7 +31,7 @@ An AI-powered application that analyzes business requirements written in
 natural language and extracts technical tasks, effort estimations and
 potential risks.
 
-📁 `requirements-analysis-ai/`
+📁 `requirements_analysis_ai/`
 
 (More projects will be added progressively.)
 
