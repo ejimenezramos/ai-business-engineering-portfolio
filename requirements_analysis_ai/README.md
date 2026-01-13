@@ -1,21 +1,20 @@
-# 🧠 AI Requirements Analyzer:
-Live demo: https://ai-business-requirements-analysis.streamlit.app/
+# 🧠 AI Requirements Analyzer
 
-AI-powered tool that translates **business requirements** into structured
-**technical tasks, effort estimation and risk analysis**.
+Live demo:
+https://ai-business-requirements-analysis.streamlit.app/
 
-Designed for **business-oriented technical roles**, consultants and engineers
-working at the intersection of **technology and real-world problem solving**.
+AI-powered tool that translates business requirements into structured technical tasks, effort estimation and risk analysis.
+
+Designed for business-oriented technical roles, consultants and engineers working at the intersection of technology and real-world problem solving.
 
 ---
 
 ## 🚀 What problem does this solve?
 
-In many projects, requirements are written in natural language and contain
-ambiguities, missing details or hidden technical risks.
+In many projects, requirements are written in natural language and contain ambiguities, missing details or hidden technical risks.
 
 This tool helps to:
-- Bridge the gap between **business language and technical execution**
+- Bridge the gap between business language and technical execution
 - Identify missing information early
 - Support better estimations and technical decision-making
 
@@ -23,11 +22,11 @@ This tool helps to:
 
 ## ✨ Features
 
-- 🔍 Analyze raw business requirements using **Generative AI (Gemini)**
-- 🛠 Extract concrete **technical tasks**
-- ⏱ Provide **rough effort estimation**
-- ⚠️ Highlight **risks and ambiguities**
-- 🧩 Clean, professional UI built with **Streamlit**
+- 🔍 Analyze raw business requirements using Generative AI (Gemini)
+- 🛠 Extract concrete technical tasks
+- ⏱ Provide rough effort estimation
+- ⚠️ Highlight risks and ambiguities
+- 🧩 Clean, professional UI built with Streamlit
 
 ---
 
@@ -49,23 +48,21 @@ This tool helps to:
 
 ## 🧠 Tech Stack
 
-- **Python**
-- **Streamlit** (UI)
-- **Google Gemini API** (Generative AI)
+- Python
+- Streamlit (UI)
+- Google Gemini API (Generative AI)
 - Modular architecture (AI logic separated from UI)
 
 ---
 
 ## 🏗️ Architecture Overview
 
-```
 requirements_analysis_ai/
 ├── app/              # Core application logic
 ├── ui/               # Streamlit UI
 ├── ai_service.py     # Gemini integration & prompt logic
 ├── screenshots/      # UI screenshots
 └── README.md
-```
 
 ---
 
@@ -73,44 +70,37 @@ requirements_analysis_ai/
 
 Set your Gemini API key as an environment variable.
 
-### macOS / Linux
-```bash
+macOS / Linux:
 export GEMINI_API_KEY=your_api_key_here
-```
 
-### Windows (PowerShell)
-```powershell
+Windows (PowerShell):
 setx GEMINI_API_KEY "your_api_key_here"
-```
 
 ---
 
 ## ▶️ Run locally
 
-```bash
 pip install -r requirements.txt
 streamlit run ui/app.py
-```
 
 ---
 
 ## 📌 Why this project?
 
 This project reflects my interest in roles where:
-
-- Understanding the **business context** is as important as coding
-- Technology must work in **real enterprise environments**
-- AI is used as a **productivity and decision-support tool**, not as a gimmick
+- Understanding the business context is as important as coding
+- Technology must work in real enterprise environments
+- AI is used as a productivity and decision-support tool, not as a gimmick
 
 ---
 
 ## 🎯 Target Roles
 
-- Solutions Engineer  
-- Technical Consultant  
-- Business-focused Software Engineer  
-- AI Engineer (applied / product-oriented)  
-- Product or Platform Engineering roles  
+- Solutions Engineer
+- Technical Consultant
+- Business-focused Software Engineer
+- AI Engineer (applied / product-oriented)
+- Product or Platform Engineering roles
 
 ---
 
