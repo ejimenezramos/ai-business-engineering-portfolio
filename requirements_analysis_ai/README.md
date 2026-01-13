@@ -1,4 +1,5 @@
-# 🧠 AI Requirements Analyzer: https://ai-business-requirements-analysis.streamlit.app/
+# 🧠 AI Requirements Analyzer:
+Live demo: https://ai-business-requirements-analysis.streamlit.app/
 
 AI-powered tool that translates **business requirements** into structured
 **technical tasks, effort estimation and risk analysis**.
